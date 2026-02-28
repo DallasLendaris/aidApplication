@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 public class aidApplication {
 
-
     public aidApplication(){
     }
 
@@ -164,12 +163,6 @@ public class aidApplication {
                     else{qindex = false;};
                 }
                 return false;
-
-
-
-                
-                
-            
         }
     
     
