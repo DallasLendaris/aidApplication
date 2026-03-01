@@ -1,3 +1,4 @@
+package aidapplication;
 import java.time.YearMonth;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
@@ -160,13 +161,14 @@ public class aidApplication {
                     return true;
                 }else{qindex = false;}
             }
-            else{qindex = false;};
+            else{qindex = false;}
         }
         return false;
     }
     
     
     public boolean deansConsideration(Scanner scanner){
+
         boolean loop = true;
         //
         // Ask the user...
